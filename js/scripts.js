@@ -17,7 +17,6 @@ function getInput() {
 
 
 function primaryLoop(inputArray) {
-
   if (inputArray[0] <= 0) {return}
 
   // debugger;
@@ -79,7 +78,11 @@ $(document).ready(function() {
 
     console.log(format(arr2));
 
+    array = [];
 
+    arr2 = [];
+
+    output = [];
 
 
 
